@@ -1,0 +1,31 @@
+.clock {
+    display:flex;
+    
+}
+p {
+    color: red;
+    background-color: blueviolet;
+}
+
+h1 {
+    color: aqua;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    animation: animate 5s ease-in infinite;
+    text-shadow: 3px 3px  gold;
+}
+@keyframes animate {
+    100%{transform: translateX(800px);}
+    
+    
+}
+pre {
+    color: gold;
+    background-color: black;
+}
+button:hover {
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 10px;
+}
